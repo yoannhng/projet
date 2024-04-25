@@ -1,0 +1,141 @@
+
+img {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    width: 30%;
+    margin: auto;
+}
+p{
+    margin: auto;
+}
+texte{
+    text-align: center;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  #background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeinout 10s infinite;
+    background-image: url(../fonts/jul.jpg);
+    background-size: cover;
+  }
+
+  @keyframes fadeinout {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+/* Style du header */
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    background-image:url(../../Projet/images/logo/jul.png);
+    
+}
+/* Style de la navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+.bandeau {
+    background-color: #007bff; /* Couleur de fond */
+    color: #faf7f7; /* Couleur du texte */
+    padding: 0px 0; /* Espacement interne */
+    text-align: center; /* Centrage du texte */
+    
+}
+
+.grand-texte {
+    font-size: 1em; /* Taille de police grande */
+    text-align: center; /* Centrage horizontal */
+    display: flex; /* Utilisation de flexbox pour le centrage vertical */
+    justify-content: center; /* Centrage horizontal avec flexbox */
+    align-items: center; /* Centrage vertical avec flexbox */
+    height: 10vh; /* Hauteur de l'élément égale à la hauteur de la fenêtre */
+}
+
+.band {
+    margin-top: -17px;
+    background-color: #504d4d; /* Couleur de fond */
+    color: #faf7f7; /* Couleur du texte */
+    padding: 0px 0; /* Espacement interne */
+    text-align: center; /* Centrage du texte */
+    
+}
+
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(164, 64, 64);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+a{
+    all:unset
+}  
